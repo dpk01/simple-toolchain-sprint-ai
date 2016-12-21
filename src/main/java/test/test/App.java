@@ -10,12 +10,12 @@ public class App {
 	
 	public static ArrayList<String> main(ArrayList<String> question) {
 				
-		final String USENAME= System.getenv("USERNAME");
+		final String USERNAME= System.getenv("USERNAME");
 		final String PASSWORD= System.getenv("PASSWORD");
 		final String WORKSPACE_ID= System.getenv("WORKSPACE_ID");
 		
 		ConversationService service = new ConversationService("2016-09-20");
-		service.setUsernameAndPassword(USENAME, PASSWORD);
+		service.setUsernameAndPassword(USERNAME, PASSWORD);
 
 		MessageRequest newMessage = new MessageRequest.Builder().build();
 
