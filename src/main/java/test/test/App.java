@@ -8,11 +8,12 @@ import com.ibm.watson.developer_cloud.conversation.v1.model.MessageResponse;
 
 public class App {
 	
-	public static final String USENAME= "0be98465-ea2f-4f9f-bedc-19a0731f949a";
-	public static final String PASSWORD= "UNkfeKefSGut";
-	public static final String WORKSPACE_ID= "141d7139-40da-4b46-87be-971c41c06b4d";
-	
 	public static ArrayList<String> main(ArrayList<String> question) {
+				
+		final String USENAME= System.getenv("USERNAME");
+		final String PASSWORD= System.getenv("PASSWORD");
+		final String WORKSPACE_ID= System.getenv("WORKSPACE_ID");
+		
 		ConversationService service = new ConversationService("2016-09-20");
 		service.setUsernameAndPassword(USENAME, PASSWORD);
 
