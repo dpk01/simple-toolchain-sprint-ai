@@ -5,41 +5,12 @@
 			"conversation":
 			[
 				{
-					"question": "Good morning, I would like to activate my credit card",
-					"response": "Ok, you can activate your card by inserting the security code here."
+					"question": "what is billing address",
+					"response": "Your billing address is the address where you receive your bill. This can be your home, office, or anywhere that is convenient for you to receive your monthly bill."
 				},
 				{
-					"question": "may you show me the movements?",
-					"response": "you can browse credit card movements here."
-				},
-				{
-					"question" : "how can I see only expenses?",
-					"response" : "you can apply the filter .."
-				},
-				{
-					"question": "and income?",
-					"response": "just adjust the filter"
-				}
-			]
-		},
-		{
-			"conversation":
-			[
-				{
-					"question": "How can I get a debit card?",
-					"response": "You can get a debit card calling 800-245-445"
-				},
-				{
-					"question": "Where can I see the transactions",
-					"response": "The transactions of the debit card are visible on the portal here"
-				},
-				{
-					"question": "the last?",
-					"response": "the last transactions are visible ordering the list"
-				},
-				{
-					"question": "how much does it cost?",
-					"response": "the debit card is free of charge"
+					"question": "what is shipping address",
+					"response": "I'm sorry, I don't understand. Please try again."
 				}
 			]
 		}
